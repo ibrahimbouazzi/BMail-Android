@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">BMail</string>
+
+    <!-- Login -->
+    <string name="login_title">BMail - Giriş</string>
+    <string name="login_ews">EWS adresi:</string>
+    <string name="login_oab">OAB adresi:</string>
+    <string name="login_user">Kullanıcı (ALAN\\ad):</string>
+    <string name="login_pass">Şifre:</string>
+    <string name="login_remember">Şifreyi bu cihazda şifreli sakla</string>
+    <string name="login_ok">Giriş Yap</string>
+    <string name="login_cancel">İptal</string>
+    <string name="login_connecting">Bağlanıyor…</string>
+    <string name="login_need_creds">Kullanıcı adı ve şifre gereklidir.</string>
+
+    <!-- Menu -->
+    <string name="menu_view">Görünüm</string>
+    <string name="menu_remote_images">Uzak görselleri yükle</string>
+    <string name="menu_about">Hakkında</string>
+    <string name="menu_settings">Ayarlar</string>
+    <string name="menu_logout">Çıkış Yap</string>
+    <string name="menu_refresh">Yenile</string>
+    <string name="menu_delete">Sil</string>
+    <string name="menu_reply">Yanıtla</string>
+    <string name="menu_new">Yeni mesaj</string>
+
+    <!-- Toolbar -->
+    <string name="tb_new">Yeni mesaj</string>
+    <string name="tb_reply">Yanıtla</string>
+    <string name="tb_delete">Sil</string>
+    <string name="tb_refresh">Yenile</string>
+    <string name="tb_older">Daha eski</string>
+    <string name="tb_address_book">Adres defteri</string>
+    <string name="tb_oab">OAB</string>
+    <string name="tb_search">Ara:</string>
+
+    <!-- Folders -->
+    <string name="folder_inbox">Gelen Kutusu</string>
+    <string name="folder_drafts">Taslaklar</string>
+    <string name="folder_sent">Gönderilmiş</string>
+    <string name="folder_deleted">Silinmiş</string>
+    <string name="folder_junk">İstenmeyen</string>
+
+    <!-- Columns -->
+    <string name="col_from">Kimden</string>
+    <string name="col_to">Kime</string>
+    <string name="col_subject">Konu</string>
+    <string name="col_date">Tarih</string>
+    <string name="list_no_subject">(konu yok)</string>
+    <string name="list_att_tag">[ek]</string>
+
+    <!-- Status -->
+    <string name="status_loading">Yükleniyor…</string>
+    <string name="status_error">Hata</string>
+    <string name="status_deleting">Siliniyor…</string>
+    <string name="status_downloading">Ek indiriliyor…</string>
+    <string name="status_oab">OAB bildirimi alınıyor…</string>
+    <string name="status_sending">Gönderiliyor…</string>
+
+    <!-- Mail headers -->
+    <string name="hdr_subject">Konu:</string>
+    <string name="hdr_from">Kimden:</string>
+    <string name="hdr_to">Kime:</string>
+    <string name="hdr_cc">Bilgi:</string>
+    <string name="hdr_date">Tarih:</string>
+    <string name="att_title">Ekler</string>
+    <string name="att_save">Eki kaydet…</string>
+    <string name="att_pick">Kaydetmek için listeden bir ek seçin.</string>
+    <string name="body_loading">Yükleniyor…</string>
+
+    <!-- Messages -->
+    <string name="msg_select_first">Önce bir mesaj seçin.</string>
+    <string name="msg_confirm_delete">Bu mesajı Silinmiş Öğeler\'e taşı?</string>
+    <string name="msg_confirm_hard_delete">Bu mesaj kalıcı olarak silinecek. Emin misiniz?</string>
+    <string name="msg_delete_title">Sil</string>
+
+    <!-- Compose -->
+    <string name="compose_title">Yeni mesaj</string>
+    <string name="compose_to">Kime:</string>
+    <string name="compose_cc">Bilgi:</string>
+    <string name="compose_bcc">Gizli:</string>
+    <string name="compose_subject">Konu:</string>
+    <string name="compose_addr_search">Adres bul…</string>
+    <string name="compose_send">Gönder</string>
+    <string name="compose_discard">Vazgeç</string>
+    <string name="compose_attach">Ekler</string>
+    <string name="compose_add_file">Dosya ekle…</string>
+    <string name="compose_remove_file">Kaldır</string>
+    <string name="compose_no_recipient">En az bir alıcı girin.</string>
+    <string name="compose_no_subject">Konu boş. Yine de gönderilsin mi?</string>
+    <string name="compose_no_subject_title">Konu yok</string>
+    <string name="compose_too_large">Ekler toplamda 25 MB\'ı aşamaz.</string>
+
+    <!-- Address book -->
+    <string name="address_title">Adres Defteri</string>
+    <string name="address_label">Ad / e-posta:</string>
+    <string name="address_search">Ara</string>
+    <string name="address_select">Seç</string>
+    <string name="address_close">Kapat</string>
+    <string name="address_min_chars">En az 2 karakter girin.</string>
+    <string name="address_searching">Aranıyor…</string>
+
+    <!-- About -->
+    <string name="about_title">BMail Hakkında</string>
+    <string name="about_version">Sürüm %s</string>
+    <string name="about_text">Yapay zeka ile %s tarafından geliştirildi.</string>
+
+    <!-- Errors -->
+    <string name="err_auth">Kimlik doğrulama başarısız (HTTP 401). Kullanıcı adını ALAN\\\\kullanıcı biçiminde girin ve şifreyi kontrol edin.</string>
+    <string name="err_forbidden">Erişim engellendi (HTTP 403).</string>
+    <string name="err_no_ews">EWS adresi boş olamaz.</string>
+    <string name="err_host">Sunucu bulunamadı: %s</string>
+    <string name="err_connect">Sunucuya bağlanılamadı (ağ/VPN?): %s</string>
+    <string name="err_ssl">Güvenli bağlantı kurulamadı: %s</string>
+    <string name="err_bad_response">Sunucudan geçersiz yanıt. EWS adresi doğru mu?</string>
+    <string name="err_https_only">Güvenlik için yalnızca https adresleri kabul edilir: %s</string>
+
+    <!-- Generic -->
+    <string name="op_yes">Evet</string>
+    <string name="op_no">Hayır</string>
+    <string name="op_ok">Tamam</string>
+    <string name="op_cancel">İptal</string>
+    <string name="reply_prefix">YNT:</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Ayarlar</string>
+    <string name="settings_account">Hesap</string>
+    <string name="settings_ews_url">EWS URL</string>
+    <string name="settings_oab_url">OAB URL</string>
+    <string name="settings_username">Kullanıcı Adı</string>
+    <string name="settings_language">Dil</string>
+</resources>
